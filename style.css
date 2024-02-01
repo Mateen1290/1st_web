@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: rgb(231, 212, 248);
+}
+.navbar {
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.openMenu{
+  display: none;
+}
+.logo {
+  color: darkblue;
+}
+
+.nav-items {
+  display: flex;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.nav-items li {
+  list-style: none;
+  margin: 0px 20px;
+}
+.nav-items li a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.nav-items li a:hover {
+  color: palevioletred;
+}
+.mobileMenu{
+  display: none; 
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(237, 224, 250);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: blueviolet;
+}
+
+.image {
+  height: 100vh;
+  width: 100%;
+}
+.icon-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 50px;
+    width: 50px;
+    background-color: brown; */
+  border-radius: 50%;
+}
+.cards {
+  text-align: center;
+}
+.fa-bicycle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 212, 248);
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+}
+
+/* for foote section items */
+
+.footer{
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.leftside{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftside i{
+  color: #1f2937;
+}
+.rightside{
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right a{
+  margin: 0px 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #1f2937;
+}
+
+/* footer bottom */
+
+.footer-bottom{
+  height: 10vh;
+  background-color:  rgb(231, 212, 248);
+  display: flex;
+  align-items: center;
+}
+.footer-bottom i{
+  margin-left: 50px;
+}
+.copyrigts p{
+  display: flex;
+}
+.line{
+  font-size: 50px;
+}
+
+.footer-bottom i{
+  color: #1f2937;
+}
+
+.b-icons{
+  display: flex;
+  position: absolute;
+  right: 0;
+  justify-content: space-around;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.b-icons i{
+  margin: 0px 8px;
+}
+
